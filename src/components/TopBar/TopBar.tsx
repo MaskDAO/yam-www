@@ -31,7 +31,7 @@ const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
                 <DarkModeSwitch />
               </StyledTopBarDarkModeSwitch>
               <Spacer />
-              <WalletButton />
+              {/*<WalletButton />*/}
             </StyledAccountButtonWrapper>
             <Spacer />
             <StyledMenuButton onClick={onPresentMobileMenu}>

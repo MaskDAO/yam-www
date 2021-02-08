@@ -44,7 +44,7 @@ const App: React.FC = () => {
         <MobileMenu onDismiss={handleDismissMobileMenu} visible={mobileMenu} />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Umbrella />
           </Route>
           <Route exact path="/farm">
             <Farm />
@@ -64,7 +64,7 @@ const App: React.FC = () => {
           <Route exact path="/addresses">
             <Addresses />
           </Route>
-          <Route exact path="/umbrella">
+          <Route exact path="/home">
             <Umbrella />
           </Route>
           <Route exact path="/contributor">

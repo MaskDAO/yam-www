@@ -14,29 +14,14 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ onDismiss, visible }) => {
       <StyledMobileMenuWrapper>
         <StyledBackdrop onClick={onDismiss} />
         <StyledMobileMenu>
-          <StyledRouterLink exact activeClassName="active" to="/" onClick={onDismiss}>
+          <StyledRouterLink exact activeClassName="active" to="/umbrella" onClick={onDismiss}>
             Home
           </StyledRouterLink>
-          <StyledRouterLink exact activeClassName="active" to="/dashboard" onClick={onDismiss}>
-            Dashboard
-          </StyledRouterLink>
-          <StyledRouterLink exact activeClassName="active" to="/umbrella" onClick={onDismiss}>
-            Umbrella
-          </StyledRouterLink>
           <StyledLink href="https://degenerative.finance/" target="_blank">
-            Degenerative
+            Forum
           </StyledLink>
-          <StyledRouterLink exact activeClassName="active" to="/governance" onClick={onDismiss}>
-            Govern
-          </StyledRouterLink>
-          <StyledRouterLink exact activeClassName="active" to="/farm" onClick={onDismiss}>
-            Farm
-          </StyledRouterLink>
-          <StyledRouterLink exact activeClassName="active" to="/migrate" onClick={onDismiss}>
-            Migrate
-          </StyledRouterLink>
           <StyledLink href="https://docs.yam.finance/" target="_blank">
-            FAQ
+            About
           </StyledLink>
         </StyledMobileMenu>
       </StyledMobileMenuWrapper>
