@@ -20,7 +20,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ onDismiss, visible }) => {
           <StyledLink href="https://degenerative.finance/" target="_blank">
             Forum
           </StyledLink>
-          <StyledLink href="https://docs.yam.finance/" target="_blank">
+          <StyledLink href="https://docs.google.com/document/d/1G8Mzg5rSTQi27hHbNR4T2fJtvmO9MhhKSad7tjJWIW8/edit" target="_blank">
             About
           </StyledLink>
         </StyledMobileMenu>
